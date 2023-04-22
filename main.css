@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    background-color:#fff ;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 70px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+form input {
+    font-size: 40px;
+    background-color: #fff;
+    border: none;
+    padding: 9px;
+}
+
+form button {
+    background-color: #74dacc;
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 9px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.strike {
+    text-decoration: line-through;
+}
